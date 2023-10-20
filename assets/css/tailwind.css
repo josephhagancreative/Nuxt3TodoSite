@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-100;
+  @apply bg-zinc-100;
   font-family: "Noto Sans JP", sans-serif;
+}
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.router-link-active {
+  @apply text-green-600 underline;
 }

@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <h1 class="text-2xl">Hello Nuxt with Tailwind / Pinia</h1>
+  <div class="bg-white p-5 shadow-md rounded-md">
+    <h2 class="text-2xl">What do you want to do today?</h2>
+    <TodoInput />
     <TodoContainer />
-    <span class="material-symbols-outlined"> check </span>
   </div>
 </template>
 
-<script lang="ts" setup>
-import TodoContainer from "../components/TodoContainer.vue"
-</script>
+<script lang="ts" setup></script>
 
 <style></style>
