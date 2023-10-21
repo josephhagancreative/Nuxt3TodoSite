@@ -14,3 +14,11 @@ body {
 .router-link-active {
   @apply text-green-600 underline;
 }
+
+.iconBtn {
+  @apply p-1 rounded-md cursor-pointer;
+}
+
+.toggled {
+  @apply line-through text-gray-500;
+}

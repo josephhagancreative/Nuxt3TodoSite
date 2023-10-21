@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: "stylesheet",
-          href: 'href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;700&display=swap"',
+          href: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;400;700&display=swap",
         },
         {
           rel: "stylesheet",
