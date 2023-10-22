@@ -17,7 +17,7 @@
 GitCLI の場合：
 
 ```
-gh repo clone [josephhagancreative/Nuxt3TodoSite]
+gh repo clone josephhagancreative/Nuxt3TodoSite
 ```
 
 または Zip ファイルをダウンロードしてディレクトリをコードエディタに開いてください。
@@ -27,7 +27,7 @@ gh repo clone [josephhagancreative/Nuxt3TodoSite]
 ディレクトリに移動し、必要な依存関係をインストールしてください：
 
 ```bash
-cd [nuxt3todosite]
+cd nuxt3todosite
 npm install
 ```
 
