@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxtjs/i18n"],
   i18n: {
+    strategy: "no_prefix",
     locales: ["en-US", "ja-JP"],
     defaultLocale: "ja-JP",
     detectBrowserLanguage: false,

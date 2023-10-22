@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-100 mt-3 pb-2 rounded-md min-w-[350px]">
+  <div class="bg-slate-100 mt-3 pb-2 rounded-md">
     <transition name="switch" mode="out-in">
       <div v-if="todos.length" class="relative">
         <div class="absolute top-1 right-1 gap-1">
