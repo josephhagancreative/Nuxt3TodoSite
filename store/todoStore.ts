@@ -7,6 +7,7 @@ export const useTodoStore = defineStore("todos", {
     return {
       todos: [] as Todo[],
       sorted: "oldest" as Sorted,
+      lang: "ja-JP",
     }
   },
 
@@ -54,6 +55,13 @@ export const useTodoStore = defineStore("todos", {
         this.todos = [...this.todos].sort((a, b) =>
           a.task.localeCompare(b.task)
         )
+      }
+    },
+    toggleLang() {
+      if (this.lang === "ja-JP") {
+        this.lang = "en-US"
+      } else {
+        this.lang = "ja-JP"
       }
     },
   },

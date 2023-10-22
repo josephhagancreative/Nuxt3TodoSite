@@ -1,75 +1,42 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 ToDo アプリケーション
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+このプロジェクトは、Nuxt 3 を使用して作成されたシンプルな ToDo アプリケーションです。以下の機能が含まれています：
 
-## Setup
+- ToDo の追加と削除
+- アルファベット順または作成日時順に並べ替える機能
+- ボタンクリックで英語と日本語間での言語切り替え機能
 
-Make sure to install the dependencies:
+[ライブバージョンはここでみられます](https://nuxt3todo.netlify.app/)
+
+## インストール方法
+
+### 1. リポジトリのクローン
+
+以下のコマンドを使用して、ローカルマシンにプロジェクトをクローンしてください：
+
+GitCLI の場合：
+
+```
+gh repo clone [josephhagancreative/Nuxt3TodoSite]
+```
+
+または Zip ファイルをダウンロードしてディレクトリをコードエディタに開いてください。
+
+### 2. 依存関係のインストール
+
+ディレクトリに移動し、必要な依存関係をインストールしてください：
 
 ```bash
-# npm
+cd [nuxt3todosite]
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### 3. アプリケーションの起動
 
-Start the development server on `http://localhost:3000`:
+以下のコマンドでアプリケーションをローカルで起動します：
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+ブラウザで `http://localhost:3000` にアクセスすると、ToDo アプリケーションが表示されます。

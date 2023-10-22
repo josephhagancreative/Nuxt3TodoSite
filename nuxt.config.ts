@@ -2,7 +2,13 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
+  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxtjs/i18n"],
+  i18n: {
+    locales: ["en-US", "ja-JP"],
+    defaultLocale: "ja-JP",
+    detectBrowserLanguage: false,
+    vueI18n: "./i18n.config.ts",
+  },
   app: {
     head: {
       link: [

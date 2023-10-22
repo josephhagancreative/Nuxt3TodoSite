@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-100 mt-3 pb-2 rounded-md">
+  <div class="bg-slate-100 mt-3 pb-2 rounded-md min-w-[350px]">
     <transition name="switch" mode="out-in">
       <div v-if="todos.length" class="relative">
         <div class="absolute top-1 right-1 gap-1">
@@ -30,7 +30,7 @@
         </transition-group>
       </div>
       <div v-else class="center p-2">
-        <p class="text-center text-sm font-bold">Nothing to do, let's relax!</p>
+        <p class="text-center text-sm font-bold">{{ $t("noTodos") }}</p>
       </div>
     </transition>
   </div>
@@ -71,16 +71,5 @@ const alphabeticalSortHandler = () => {
 }
 .list-move {
   transition: all 0.3s ease;
-}
-
-.switch-enter-from,
-.switch-leave-to {
-  opacity: 0;
-}
-.switch-enter-active {
-  transition: all 0.2s ease;
-}
-.switch-leave-active {
-  transition: all 0.2s ease;
 }
 </style>
